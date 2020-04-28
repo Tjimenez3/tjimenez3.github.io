@@ -57,30 +57,55 @@
                     <div class="content">
                         <h1>Instructions for Download and Installation</h1>
                             <p>
-                                &bullet; Step 1: Download the file here.<br>
+                                &bullet; Step 1: Download the file  
+                                <a href="https://github.com/Tjimenez3/tjimenez3.github.io/raw/master/APK%20Download/Visualization.apk" download="viualization.apk">Here
+                                </a><br>
                                 &bullet; Step 2: Open the file. <br>
                                 &bullet; Step 3: Click on Install and wait for app to install. <br>
                                 &bullet; Step 4: Click open to open the app. <br>
+                                &bullet; Step 5: Open the survey links in the order provided and complete the questions. <br>
 
 
                                 <ul>
-                                  <li>1</li>
-                                  <li>2</li>
-                                  <li>3</li>
+                                  <li><a href="https://usfca.co1.qualtrics.com/jfe/form/SV_0GnL70g8HORe8Pb">Histogram
+                                </a></li>
+                                  <li><a href="https://usfca.co1.qualtrics.com/jfe/form/SV_4SiiRHlfjQlz4Zn">Box and Whisker
+                                </a></li>
+                                  <li><a href="https://usfca.co1.qualtrics.com/jfe/form/SV_8HXjbat8qOMGJ13">Large Swarm Plot
+                                </a></li>
+                                  <li><a href="https://usfca.co1.qualtrics.com/jfe/form/SV_bgzPXZgElkzVslT">Small Swarm Plot
+                                </a></li>
+                                  <li><a href="https://usfca.co1.qualtrics.com/jfe/form/SV_5C2g9I1qVfjxe0B">Dynamic Swarm Plot
+                                </a></li>
+                                  <li><a href="https://usfca.co1.qualtrics.com/jfe/form/SV_82gksiAwSim9AFf">Control
+                                </a></li>
+
                                 </ul>
-                                &bullet; Step 5: Once you have completed this and want to uninstall, look for the application in your apps. <br>
-                                &bullet; Step 6: Click and hold on the app, a pop up should come out, saying app info click on this. <br>
-                                &bullet; Step 7: Click Uninstall. <br>
+                                <p>Your Id Number: </p>
+                                <div id="myNumber"></div>
+                                <br>
+                                <script> 
+                                  var ul = document.querySelector('ul');
+                                  var hist;
+                                  var total = "";
+                                  for (var i = ul.children.length; i >= 0; i--) {
+                                      //ul.appendChild(ul.children[Math.random() * i | 0]);
+                                      hist = [Math.random() * i | 0];
+                                      total = total + hist;
+                                      ul.appendChild(ul.children[hist]);
+                                  }
+                                  //document.getElementById("myNumber").innerHTML = Math.floor(Math.random() *100000);
+                                  document.getElementById("myNumber").innerHTML = total + Math.floor(Math.random() *100000);
+                                </script>
+                                &bullet; Step 6: Once you have completed the survey's and want to uninstall the application, look for the application in your apps. <br>
+                                &bullet; Step 7: Click and hold on the app, a pop up should come out, saying app info click on this. <br>
+                                &bullet; Step 8: Click Uninstall. <br>
 
                         </p>
                     </div>
                 </div>
               </div>
-              <a href="https://github.com/Tjimenez3/tjimenez3.github.io/raw/master/APK%20Download/Visualization.apk" download="viualization.apk">Download Here
-</a><br>
-<a href="https://youtu.be/sfF4png6S1k">Video Instructions
-</a>
-<br>
+              <h1>Video Instructions for Download and Installation</h1>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sfF4png6S1k" frameborder="0" allow=“accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture” allowfullscreen></iframe>
   <!-- footer -->
   <footer class="footer">
